@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+
+
+:root{
+    --fonte01: 'Tangerine', cursive;
+    --fonte02: 'Smooch', cursive;
+    --fonte03: 'Playfair Display', serif;
+
+
+}
+
+
+    html,body{
+            min-height: 100vh;
+             background-color: lightgray;
+             font-family: var(--fonte01);
+
+    }
+
+    header{
+        
+            background-image: linear-gradient(to bottom,#be9181,hsl(34, 25%, 17%));
+            height: 150px;
+            text-align: center;
+
+    }
+    header h1{
+             padding-top: 50px;
+            font-size: 9vw;
+            color: #f8d50b;
+            text-align: center;
+            font-size: 3em;
+            font-family: var(--fonte03);
+
+            
+        
+    }
+
+    header p{
+            color: #ffffff;
+            text-align: center;
+            font-size: 1.3em;
+
+            
+
+
+    }
+
+
+    
+
+    .mario{
+            font-family: var(--fonte03);
+           
+
+    }
+
+    a:hover{
+        color: white;
+
+    }
+    header a{
+            color: #f8d50b;
+            font-weight: bold;
+    }
+    footer a:hover{
+            color: rgb(216, 40, 9);
+    }
+
+    header a :hover, footer a :hover{
+        text-decoration: underline;
+
+    }
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 30px;
+        line-height: 2em;
+        font-size: 8.5vw;
+        font-weight: bold;
+
+        
+    }
+
+   
+        
+    
+    section.normal{
+
+                 background-color: white;
+                color: black;
+        }
+        section.imagem{
+                background-color: rgba(51, 51, 51);
+                color: white;
+                box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+                background-size: cover;
+        
+        }
+        section.imagem>p{
+                display: inline-block;
+                padding: 5px;
+                background-color: rgba(0, 0, 0, 0.514);
+                text-shadow: 1px 1px 0px black;
+            
+
+        }
+              
+
+
+
+
+
+
+   #img01{
+        background-image: url(../imagens/cruz\ 1.jpg);
+        background-position: left center;
+        background-attachment: fixed;
+
+
+}
+
+
+#img02{
+        background-image: url(../imagens/cruz\ 2.jpg);
+        background-position: left center;
+        background-attachment: fixed;
+
+}
+
+
+    footer a{
+        color: #f8d50b;
+    }
+   
+    footer{
+        background-image: linear-gradient(to bottom,#be9181,hsl(34, 25%, 17%));
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 1em;
+
+    
+    
+    }
+
+        
+        
+  
+
